@@ -15,7 +15,7 @@ $theme-base-4: tbd !default;
 $theme-primary: $color-steel-blue !default;
 $theme-primary-2: $color-steel-blue-darker !default;
 $theme-primary-3: $color-steel-blue-darkest !default;
-$theme-primary-4: tbd !default;
+$theme-primary-4: $color-charcoal !default;
 
 $theme-accent: $color-asparagus !default;
 $theme-accent-2: $color-leaf !default;
@@ -34,8 +34,8 @@ $theme-action-2: $color-gray-lightest !default; //used for default and focus sta
 $theme-action-3: $color-gray-lighter !default;
 
 $theme-action-primary: $color-leaf !default; //used for primary default and focus states
-$theme-action-primary-2: $color-steel-leaf-dark !default; //used for primary default and focus states
-$theme-action-primary-3: $color-steel-leaf-darker !default;
+$theme-action-primary-2: $color-leaf-dark !default; //used for primary default and focus states
+$theme-action-primary-3: $color-leaf-darker !default;
 
 $theme-action-positive: $color-jade !default; //used for positive default and focus states
 $theme-action-positive-2: $color-jade-darker !default; //used for positive default and focus states
