@@ -1,0 +1,69 @@
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      CLICKABLES
+//      does not include anchors
+//      includes tabs, dropdowns, buttons, range slider handles
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// >>>>>>>>> Default Clickables
+$component-clickable-background-color: $theme-action !default;
+$component-clickable-text-color:  $theme-text-primary !default;
+
+$component-clickable-background-color-focus: $theme-action !default;
+$component-clickable-text-color-focus:  $theme-text-primary !default;
+
+$component-clickable-background-color-hover: $theme-action-2 !default;
+$component-clickable-text-color-hover: $theme-text-primary !default;
+
+$component-clickable-background-color-active: $theme-action-3 !default;
+$component-clickable-text-color-active: $theme-text-primary !default;
+
+$component-clickable-background-color-disabled: $theme-action !default;
+$component-clickable-text-color-disabled: $theme-text-tertiary !default;
+
+// >>>>>>>>> Primary Clickables
+$component-clickable-primary-background-color: $theme-action-primary !default;
+$component-clickable-primary-text-color:  $theme-text-primary !default;
+
+$component-clickable-primary-background-color-focus: $theme-action-primary !default;
+$component-clickable-primary-text-color-focus:  $theme-text-primary !default;
+
+$component-clickable-primary-background-color-hover: $theme-action-primary-2 !default;
+$component-clickable-primary-text-color-hover: $theme-text-primary !default;
+
+$component-clickable-primary-background-color-active: $theme-action-primary-3 !default;
+$component-clickable-primary-text-color-active: $theme-text-primary !default;
+
+$component-clickable-primary-background-color-disabled: $theme-action !default;
+$component-clickable-primary-text-color-disabled: $theme-text-tertiary !default;
+
+// >>>>>>>>> Positive Clickables
+$component-clickable-positive-background-color: $theme-action-positive !default;
+$component-clickable-positive-text-color:  $theme-text-primary !default;
+
+$component-clickable-positive-background-color-focus: $theme-action-positive !default;
+$component-clickable-positive-text-color-focus:  $theme-text-primary !default;
+
+$component-clickable-positive-background-color-hover: $theme-action-positive-2 !default;
+$component-clickable-positive-text-color-hover: $theme-text-primary !default;
+
+$component-clickable-positive-background-color-active: $theme-action-positive-3 !default;
+$component-clickable-positive-text-color-active: $theme-text-primary !default;
+
+$component-clickable-positive-background-color-disabled: $theme-action !default;
+$component-clickable-positive-text-color-disabled: $theme-text-tertiary !default;
+
+// >>>>>>>>> Negative Clickables
+$component-clickable-negative-background-color: $theme-action-negative !default;
+$component-clickable-negative-text-color:  $theme-text-primary !default;
+
+$component-clickable-negative-background-color-focus: $theme-action-negative !default;
+$component-clickable-negative-text-color-focus:  $theme-text-primary !default;
+
+$component-clickable-negative-background-color-hover: $theme-action-negative-2 !default;
+$component-clickable-negative-text-color-hover: $theme-text-primary !default;
+
+$component-clickable-negative-background-color-active: $theme-action-negative-3 !default;
+$component-clickable-negative-text-color-active: $theme-text-primary !default;
+
+$component-clickable-negative-background-color-disabled: $theme-action !default;
+$component-clickable-negative-text-color-disabled: $theme-text-tertiary !default;

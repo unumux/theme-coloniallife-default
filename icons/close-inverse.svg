@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Close@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="22"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-685.000000, -440.000000)">
+            <g id="Silver-balck" transform="translate(57.000000, 428.000000)">
+                <g id="Close" transform="translate(628.000000, 12.000000)">
+                    <use id="Oval" stroke="#061724" mask="url(#mask-2)" stroke-width="4" stroke-linejoin="round" xlink:href="#path-1"></use>
+                    <g id="Group-7" transform="translate(3.000000, 3.000000)" fill="#061724">
+                        <g id="Group-8" transform="translate(19.000000, 19.000000) rotate(-315.000000) translate(-19.000000, -19.000000) translate(6.000000, 6.000000)">
+                            <rect id="Rectangle-3" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) " x="12" y="1.36779477e-13" width="2" height="26"></rect>
+                            <polyline id="Rectangle-3" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) " points="2.18491891e-13 14 2.18491891e-13 12 26 12 26 14"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

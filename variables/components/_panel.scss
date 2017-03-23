@@ -1,0 +1,38 @@
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      PANELS
+//      used by modals, dialogs, inline alerts and global alerts
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//
+// >>>>>>>>> Default Panel
+$component-panel-background-color: $theme-primary !default;
+$component-panel-border-color: $theme-primary !default;
+$component-panel-border-radius: $component-border-radius !default;
+$component-panel-text-color: $theme-text-primary !default;
+//
+// >>>>>>>>> Info Panel
+$component-panel-info-background-color: $theme-feedback !default;
+$component-panel-info-border-color: $theme-feedback !default;
+$component-panel-info-border-radius: $component-border-radius-small !default;
+$component-panel-info-text-color: $theme-text-inverse !default;
+$component-panel-info-icon: $icon-info-inverse !default;
+//
+// >>>>>>>>> Positive Panel
+$component-panel-positive-background-color: $theme-feedback-positive !default;
+$component-panel-positive-border-color: $theme-feedback-positive !default;
+$component-panel-positive-border-radius: $component-border-radius-small !default;
+$component-panel-positive-text-color: $theme-text-inverse !default;
+$component-panel-positive-icon: $icon-success-inverse !default;
+//
+// >>>>>>>>> Warning Panel
+$component-panel-warning-background-color: $theme-feedback-warning !default;
+$component-panel-warning-border-color: $theme-feedback-warning !default;
+$component-panel-warning-border-radius: $component-border-radius-small !default;
+$component-panel-warning-text-color: $theme-text-inverse !default;
+$component-panel-warning-icon: $icon-warning-inverse !default;
+//
+// >>>>>>>>> Negative Panel
+$component-panel-negative-background-color: $theme-feedback-negative !default;
+$component-panel-negative-border-color: $theme-feedback-negative !default;
+$component-panel-negative-border-radius: $component-border-radius-small !default;
+$component-panel-negative-text-color: $theme-text-inverse !default;
+$component-panel-negative-icon: $icon-error-inverse !default;

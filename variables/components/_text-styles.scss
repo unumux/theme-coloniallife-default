@@ -1,0 +1,130 @@
+// =============================================================================
+//      TEXT STYLES
+// =============================================================================
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      TEXT STYLE PROPERTY SETS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>> Heading Text
+$text-style-heading-1: (
+  family: $font-family-primary,
+  desktop-size: 3.4rem,
+  desktop-line-height: 3,
+  desktop-margin-bottom: 1,
+  mobile-size: 2.8rem,
+  mobile-line-height: 3,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+$text-style-heading-2: (
+  family: $font-family-primary,
+  desktop-size: 2.6rem,
+  desktop-line-height: 3,
+  desktop-margin-bottom: 1,
+  mobile-size: 2.4rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+$text-style-heading-3: (
+  family: $font-family-primary,
+  desktop-size: 2.2rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 2rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+$text-style-heading-4: (
+  family: $font-family-primary,
+  desktop-size: 1.8rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.7rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+$text-style-heading-5: (
+  family: $font-family-primary,
+  desktop-size: 1.6rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.6rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+$text-style-heading-6: (
+  family: $font-family-primary,
+  desktop-size: 1.4rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.4rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 600,
+  transform: uppercase
+) !default;
+
+// >>>>>>>>> Standard Content Text
+$text-style-content-1: (
+  family: $font-family-primary,
+  desktop-size: 1.6rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.6rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 400
+) !default;
+
+$text-style-content-2: (
+  family: $font-family-primary,
+  desktop-size: 1.4rem,
+  desktop-line-height: 2,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.4rem,
+  mobile-line-height: 2,
+  mobile-margin-bottom: 1,
+  weight: 400
+) !default;
+
+$text-style-content-3: (
+  family: $font-family-primary,
+  desktop-size: 1.1rem,
+  desktop-line-height: 1,
+  desktop-margin-bottom: 1,
+  mobile-size: 1.1rem,
+  mobile-line-height: 1,
+  mobile-margin-bottom: 1,
+  weight: 400
+) !default;
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      TEXT STYLE VARIABLES
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//>>>>>>>>> Text Colors
+$component-body-text-color: $theme-text-primary !default;
+$component-body-text-color-secondary: $theme-text-secondary !default;
+$component-body-text-color-inverse: $theme-text-inverse !default;
+$component-body-text-color-disabled: $theme-text-tertiary !default;
+
+// >>>>>>>>> Default Text Style Property Set
+$component-body-style-default: $text-style-content-1 !default;
+
+// >>>>>>>>> Highlighted Text 
+$component-highlighted-text-background-color: $theme-accent !default;
+
+// >>>>>>>>> Monospace Text
+$component-body-text-monospace: $font-family-monospace !default;

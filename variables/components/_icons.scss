@@ -1,0 +1,115 @@
+$icons-folder: "../node_modules/@unumux/theme-enterprise-default/icons";
+
+//Can be used in component styling
+
+$icon-menu: (
+    icon: url("#{$icons-folder}/menu.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-menu-inverse: (
+    icon: url("#{$icons-folder}/menu-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-menu-close: (
+    icon: url("#{$icons-folder}/menu-close.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-menu-close-inverse: (
+    icon: url("#{$icons-folder}/menu-close-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-close: (
+    icon: url("#{$icons-folder}/close.svg"),
+    height: 48px,
+    margin: 12px,
+    width: 48px
+);
+
+$icon-close-inverse: (
+    icon: url("#{$icons-folder}/close-inverse.svg"),
+    height: 48px,
+    margin: 12px,
+    width: 48px
+);
+
+$icon-close-small: (
+    icon: url("#{$icons-folder}/close-small.svg"),
+    height: 14px,
+    margin: 12px,
+    width: 14px
+);
+
+$icon-close-small-inverse: (
+    icon: url("#{$icons-folder}/close-small-inverse.svg"),
+    height: 14px,
+    margin: 12px,
+    width: 14px
+);
+
+$icon-info: (
+    icon: url("#{$icons-folder}/info.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-info-inverse: (
+    icon: url("#{$icons-folder}/info-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-success: (
+    icon: url("#{$icons-folder}/success.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-success-inverse: (
+    icon: url("#{$icons-folder}/success-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-warning: (
+    icon: url("#{$icons-folder}/warning.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-warning-inverse: (
+    icon: url("#{$icons-folder}/warning-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-error: (
+    icon: url("#{$icons-folder}/error.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
+
+$icon-error-inverse: (
+    icon: url("#{$icons-folder}/error-inverse.svg"),
+    height: 24px,
+    margin: 12px,
+    width: 24px
+);
