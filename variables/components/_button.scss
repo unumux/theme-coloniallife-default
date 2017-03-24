@@ -1,4 +1,5 @@
 $component-button-border-radius: $component-border-radius;
+$component-button-border-color: $theme-text-secondary;
 
 ////////BACKGROUND COLORS
 //NEUTRAL
@@ -60,7 +61,7 @@ $component-button-negative-text-color-disabled: $theme-text-tertiary !default;
 
 ////////BORDERS
 //NEUTRAL 
-$component-button-border: $component-border-width solid $component-border-color !default;
+$component-button-border: $component-border-width solid $component-button-border-color !default;
 $component-button-border-disabled: transparent !default;
 
 //PRIMARY
