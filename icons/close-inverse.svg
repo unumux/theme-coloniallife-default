@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Close@2x</title>
+    <title>Close: Small@2x</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <circle id="path-1" cx="22" cy="22" r="22"></circle>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-    </defs>
+    <defs></defs>
     <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icons" transform="translate(-685.000000, -440.000000)">
-            <g id="Silver-balck" transform="translate(57.000000, 428.000000)">
-                <g id="Close" transform="translate(628.000000, 12.000000)">
-                    <use id="Oval" stroke="#061724" mask="url(#mask-2)" stroke-width="4" stroke-linejoin="round" xlink:href="#path-1"></use>
-                    <g id="Group-7" transform="translate(3.000000, 3.000000)" fill="#061724">
-                        <g id="Group-8" transform="translate(19.000000, 19.000000) rotate(-315.000000) translate(-19.000000, -19.000000) translate(6.000000, 6.000000)">
-                            <rect id="Rectangle-3" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) " x="12" y="1.36779477e-13" width="2" height="26"></rect>
-                            <polyline id="Rectangle-3" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) " points="2.18491891e-13 14 2.18491891e-13 12 26 12 26 14"></polyline>
-                        </g>
-                    </g>
+        <g id="Icons" transform="translate(-700.000000, -520.000000)" fill="#061724">
+            <g id="Dark" transform="translate(57.000000, 428.000000)">
+                <g id="Close:-Small" transform="translate(643.000000, 92.000000)">
+                    <path d="M8.84182442,7.0122729 L13.6158049,2.29805616 C14.128065,1.79433363 14.128065,0.976140262 13.6158049,0.472417736 C13.1035447,-0.0327277347 12.2711218,-0.0327277347 11.7588616,0.472417736 L7.01191716,5.15817558 L2.29770042,0.384195147 C1.79397789,-0.128065049 0.97720747,-0.128065049 0.472062,0.384195147 C-0.031660526,0.897878287 -0.031660526,1.72887816 0.472062,2.24113836 L5.15924279,6.98808284 L0.385262355,11.7022996 C-0.128420785,12.2060221 -0.128420785,13.0242155 0.385262355,13.527938 C0.897522551,14.0330835 1.72852242,14.0330835 2.24220556,13.527938 L6.9877271,8.84218015 L11.7019438,13.6161606 C12.2056664,14.1284208 13.0238597,14.1284208 13.5275823,13.6161606 C14.0327277,13.1024774 14.0327277,12.2714776 13.5275823,11.7577944 L8.84182442,7.0122729 Z" id="Fill-1"></path>
                 </g>
             </g>
         </g>

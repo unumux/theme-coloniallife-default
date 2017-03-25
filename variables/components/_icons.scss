@@ -32,27 +32,13 @@ $icon-menu-close-inverse: (
 
 $icon-close: (
     icon: url("#{$icons-folder}/close.svg"),
-    height: 48px,
-    margin: 12px,
-    width: 48px
-);
-
-$icon-close-inverse: (
-    icon: url("#{$icons-folder}/close-inverse.svg"),
-    height: 48px,
-    margin: 12px,
-    width: 48px
-);
-
-$icon-close-small: (
-    icon: url("#{$icons-folder}/close-small.svg"),
     height: 14px,
     margin: 12px,
     width: 14px
 );
 
-$icon-close-small-inverse: (
-    icon: url("#{$icons-folder}/close-small-inverse.svg"),
+$icon-close-inverse: (
+    icon: url("#{$icons-folder}/close-inverse.svg"),
     height: 14px,
     margin: 12px,
     width: 14px
