@@ -64,7 +64,8 @@ $component-border-width: 1px !default;
 // For media queries
 // content width plus gutters on each side
 $breakpoints: (
-    small: 350px,
+    extra-small: 350px,
+    small: 600px,
     medium: 828px,
     large: 1230px
 ) !default;
