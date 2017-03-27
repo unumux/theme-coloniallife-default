@@ -1,10 +1,13 @@
 // =============================================================================
-//      TEXT STYLES
+//      TEXT STYLE PROPERTY SETS
+//
+//      Use with set-text-style mixin to set properties on a component or element
+//      Example: @include set-text-style($text-style-heading-2);
+//
 // =============================================================================
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      TEXT STYLE PROPERTY SETS
+//      HEADING STYLES
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// >>>>>>>>> Heading Text
 $text-style-heading-1: (
   family: $font-family-primary,
   desktop-size: 3.4rem,
@@ -71,7 +74,9 @@ $text-style-heading-6: (
   weight: 600
 ) !default;
 
-// >>>>>>>>> Standard Content Text
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//      STANDARD CONTENT STYLES
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $text-style-content-1: (
   family: $font-family-secondary,
   desktop-size: 1.6rem,
@@ -104,21 +109,3 @@ $text-style-content-3: (
   mobile-margin-bottom: 1,
   weight: 400
 ) !default;
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      TEXT STYLE VARIABLES
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//>>>>>>>>> Text Colors
-$component-body-text-color: $theme-text-primary !default;
-$component-body-text-color-secondary: $theme-text-secondary !default;
-$component-body-text-color-inverse: $theme-text-inverse !default;
-$component-body-text-color-disabled: $theme-text-tertiary !default;
-
-// >>>>>>>>> Default Text Style Property Set
-$component-body-style-default: $text-style-content-1 !default;
-
-// >>>>>>>>> Highlighted Text 
-$component-highlighted-text-background-color: $theme-accent !default;
-
-// >>>>>>>>> Monospace Text
-$component-body-text-monospace: $font-family-monospace !default;
