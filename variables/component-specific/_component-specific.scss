@@ -1,17 +1,13 @@
 // =============================================================================
 //      COMPONENTS
 // =============================================================================
-//Import maps
-@import "text-styles";
-@import "icons";
-
 //Import Base Variables
 @import "base";
 
 // --- Trying something new
 // Import Component Specific Variables
-@import "clickable";
-@import "panel";
+// @import "clickable";
+// @import "panel";
 @import "banner";
 @import "breadcrumbs";
 @import "button";
@@ -19,7 +15,6 @@
 @import "footer-nav";
 @import "global-alert";
 @import "grid";
-@import "icons";
 @import "inline-alert";
 @import "logo-link";
 @import "modal";
