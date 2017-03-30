@@ -42,6 +42,14 @@ $component-link-color-inverse-focus: $theme-text-inverse !default;
 $component-link-color-inverse-active: $theme-base-3 !default;
 $component-link-color-inverse-visited: $theme-text-inverse !default;
 
+$component-table-header-background-color: $theme-primary !default;
+$component-table-row-background-color-odd: $theme-base !default;
+$component-table-row-background-color-even: $theme-base-2 !default;
+$component-table-border-color: $theme-base-3 !default;
+$component-table-body-text-color: $theme-text-primary !default;
+$component-table-header-text-color: $theme-text-inverse !default;
+
+
 // >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
 
