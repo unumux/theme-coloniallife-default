@@ -1,11 +1,27 @@
 {
   "name": "@unumux/theme-coloniallife-default",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "UnumUX",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unumux/theme-coloniallife-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unumux/theme-coloniallife-default/issues"
+  },
+  "homepage": "https://github.com/unumux/theme-coloniallife-default#readme",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
