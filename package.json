@@ -1,6 +1,6 @@
 {
   "name": "@unumux/theme-coloniallife-default",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
