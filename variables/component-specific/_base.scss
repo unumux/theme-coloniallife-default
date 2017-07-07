@@ -16,8 +16,8 @@ $component-body-background-color: $theme-base !default;
 $component-body-background-color-secondary: $theme-primary-4 !default;
 $component-body-background-color-em: theme-primary-2 !default;
 
-$component-border-color: $theme-text-secondary !default;
-$component-border-color-inverse: $theme-white !default;
+$component-border-color: $theme-base-3 !default;
+$component-border-color-inverse: $theme-base !default;
 $component-border-color-secondary: $theme-accent !default;
 $component-border-color-disabled: $theme-primary !default;
 
@@ -49,15 +49,16 @@ $component-table-border-color: $theme-base-3 !default;
 $component-table-body-text-color: $theme-text-primary !default;
 $component-table-header-text-color: $theme-text-inverse !default;
 
-
 // >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
 
 // >>>>>>>>> Highlighted Text 
 $component-highlighted-text-background-color: $theme-accent !default;
+$component-highlighted-text-color: $theme-text-inverse !default;
 
 // >>>>>>>>> Monospace Text
 $component-body-text-monospace: $font-family-monospace !default;
+$component-body-text-color-monospace: $theme-text-monospace !default;
 
 $component-border-radius: 4px !default;
 $component-border-radius-small: 3px !default;
