@@ -8,7 +8,7 @@ $component-button-background-color-visited: $theme-action !default;
 $component-button-background-color-focus: $theme-action !default;
 $component-button-background-color-hover: $theme-action-2 !default;
 $component-button-background-color-active: $theme-action-3 !default;
-$component-button-background-color-disabled: $theme-action-2 !default;
+$component-button-background-color-disabled: $theme-action-disabled !default;
 
 //PRIMARY
 $component-button-primary-background-color: $theme-action-primary !default;
@@ -16,7 +16,7 @@ $component-button-primary-background-color-visited: $theme-action-primary !defau
 $component-button-primary-background-color-focus: $theme-action-primary !default;
 $component-button-primary-background-color-hover: $theme-action-primary-2 !default;
 $component-button-primary-background-color-active: $theme-action-primary-3 !default;
-$component-button-primary-background-color-disabled: $theme-action-2 !default;
+$component-button-primary-background-color-disabled: $theme-action-disabled !default;
 
 //POSITIVE
 $component-button-positive-background-color: $theme-action-positive !default;
@@ -24,7 +24,7 @@ $component-button-positive-background-color-visited: $theme-action-positive !def
 $component-button-positive-background-color-focus: $theme-action-positive !default;
 $component-button-positive-background-color-hover: $theme-action-positive-2 !default;
 $component-button-positive-background-color-active: $theme-action-positive-3 !default;
-$component-button-positive-background-color-disabled: $theme-action-2 !default;
+$component-button-positive-background-color-disabled: $theme-action-disabled !default;
 
 //NEGATIVE
 $component-button-negative-background-color: $theme-action-negative !default;
@@ -32,16 +32,16 @@ $component-button-negative-background-color-visited: $theme-action-negative !def
 $component-button-negative-background-color-focus: $theme-action-negative !default;
 $component-button-negative-background-color-hover: $theme-action-negative-2 !default;
 $component-button-negative-background-color-active: $theme-action-negative-3 !default;
-$component-button-negative-background-color-disabled: $theme-action-2 !default;
+$component-button-negative-background-color-disabled: $theme-action-disabled !default;
 
 ////////TEXT COLORS
 //NEUTRAL
-$component-button-text-color: $theme-text-primary !default;
-$component-button-text-color-visited: $theme-text-primary !default;
-$component-button-text-color-focus: $theme-text-primary !default;
-$component-button-text-color-hover: $theme-text-primary !default;
-$component-button-text-color-active: $theme-text-primary !default;
-$component-button-text-color-disabled: $theme-text-tertiary !default;
+$component-button-text-color: $theme-text-inverse !default;
+$component-button-text-color-visited: $theme-text-inverse !default;
+$component-button-text-color-focus: $theme-text-inverse !default;
+$component-button-text-color-hover: $theme-text-inverse !default;
+$component-button-text-color-active: $theme-text-inverse !default;
+$component-button-text-color-disabled: $component-body-text-color-disabled !default;
 
 //PRIMARY
 $component-button-primary-text-color: $theme-text-inverse !default;
@@ -49,7 +49,7 @@ $component-button-primary-text-color-visited: $theme-text-inverse !default;
 $component-button-primary-text-color-focus: $theme-text-inverse !default;
 $component-button-primary-text-color-hover: $theme-text-inverse !default;
 $component-button-primary-text-color-active: $theme-text-inverse !default;
-$component-button-primary-text-color-disabled: $theme-text-tertiary !default;
+$component-button-primary-text-color-disabled: $component-body-text-color-disabled !default;
 
 //POSITIVE
 $component-button-positive-text-color: $theme-text-inverse !default;
@@ -57,7 +57,7 @@ $component-button-positive-text-color-visited: $theme-text-inverse !default;
 $component-button-positive-text-color-focus: $theme-text-inverse !default;
 $component-button-positive-text-color-hover: $theme-text-inverse !default;
 $component-button-positive-text-color-active: $theme-text-inverse !default;
-$component-button-positive-text-color-disabled: $theme-text-tertiary !default;
+$component-button-positive-text-color-disabled: $component-body-text-color-disabled !default;
 
 //NEGATIVE
 $component-button-negative-text-color: $theme-text-inverse !default;
@@ -65,7 +65,7 @@ $component-button-negative-text-color-visited: $theme-text-inverse !default;
 $component-button-negative-text-color-focus: $theme-text-inverse !default;
 $component-button-negative-text-color-hover: $theme-text-inverse !default;
 $component-button-negative-text-color-active: $theme-text-inverse !default;
-$component-button-negative-text-color-disabled: $theme-text-tertiary !default;
+$component-button-negative-text-color-disabled: $component-body-text-color-disabled !default;
 
 ////////BORDERS
 //NEUTRAL 
