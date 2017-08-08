@@ -12,8 +12,8 @@ $component-cursor-disabled: not-allowed !default; //is this helpful?
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      COMPONENT BACKGROUNDS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-body-background-color: $theme-base !default;
-$component-body-background-color-secondary: $theme-primary-4 !default;
+$component-body-background-color: $theme-base-2 !default;
+$component-body-background-color-secondary: $theme-base !default;
 $component-body-background-color-em: theme-primary-2 !default;
 
 $component-border-color: $theme-base-3 !default;
