@@ -10,32 +10,32 @@
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 $text-style-heading-1: (
   family: $font-family-primary,
-  desktop-size: 3.4rem,
-  desktop-line-height: 4,
+  desktop-size: 4.8rem,
+  desktop-line-height: 5,
   desktop-margin-bottom: 1,
-  mobile-size: 2.8rem,
-  mobile-line-height: 3,
+  mobile-size: 3.4rem,
+  mobile-line-height: 4,
   mobile-margin-bottom: 1,
-  weight: 300
+  weight: normal
 ) !default;
 
 $text-style-heading-2: (
   family: $font-family-primary,
-  desktop-size: 2.6rem,
+  desktop-size: 2.8rem,
   desktop-line-height: 3,
   desktop-margin-bottom: 1,
-  mobile-size: 2.4rem,
-  mobile-line-height: 2,
+  mobile-size: 2.5rem,
+  mobile-line-height: 3,
   mobile-margin-bottom: 1,
-  weight: 300
+  weight: normal
 ) !default;
 
 $text-style-heading-3: (
   family: $font-family-secondary,
-  desktop-size: 2.2rem,
+  desktop-size: 2.4rem,
   desktop-line-height: 3,
   desktop-margin-bottom: 1,
-  mobile-size: 2rem,
+  mobile-size: 1.9rem,
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 600
