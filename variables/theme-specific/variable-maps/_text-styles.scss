@@ -17,7 +17,7 @@ $text-style-heading-1: (
   mobile-line-height: 4,
   mobile-margin-bottom: 1,
   weight: normal
-);
+) !default;
 
 $text-style-heading-2: (
   family: $font-family-primary,
@@ -28,7 +28,7 @@ $text-style-heading-2: (
   mobile-line-height: 3,
   mobile-margin-bottom: 1,
   weight: normal
-);
+) !default;
 
 $text-style-heading-3: (
   family: $font-family-secondary,
@@ -39,7 +39,7 @@ $text-style-heading-3: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 600
-);
+) !default;
 
 $text-style-heading-4: (
   family: $font-family-secondary,
@@ -50,7 +50,7 @@ $text-style-heading-4: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 600
-);
+) !default;
 
 $text-style-heading-5: (
   family: $font-family-secondary,
@@ -61,7 +61,7 @@ $text-style-heading-5: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 600
-);
+) !default;
 
 $text-style-heading-6: (
   family: $font-family-secondary,
@@ -72,7 +72,7 @@ $text-style-heading-6: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 600
-);
+) !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      STANDARD CONTENT STYLES
@@ -86,7 +86,7 @@ $text-style-content-1: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 400
-);
+) !default;
 
 $text-style-content-2: (
   family: $font-family-secondary,
@@ -97,7 +97,7 @@ $text-style-content-2: (
   mobile-line-height: 2,
   mobile-margin-bottom: 1,
   weight: 400
-);
+) !default;
 
 $text-style-content-3: (
   family: $font-family-secondary,
@@ -108,4 +108,4 @@ $text-style-content-3: (
   mobile-line-height: 1,
   mobile-margin-bottom: 1,
   weight: 400
-);
+) !default;
