@@ -12,8 +12,8 @@ $component-cursor-disabled: not-allowed !default; //is this helpful?
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      COMPONENT BACKGROUNDS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-body-background-color: $theme-base !default;
-$component-body-background-color-secondary: $theme-primary-4 !default;
+$component-body-background-color: $theme-base-2 !default;
+$component-body-background-color-secondary: $theme-base !default;
 $component-body-background-color-em: theme-primary-2 !default;
 
 $component-border-color: $theme-base-3 !default;
@@ -60,8 +60,8 @@ $component-highlighted-text-color: $theme-text-inverse !default;
 $component-body-text-monospace: $font-family-monospace !default;
 $component-body-text-color-monospace: $theme-text-monospace !default;
 
-$component-border-radius: 4px !default;
 $component-border-radius-small: 3px !default;
+$component-border-radius: 4px !default;
 $component-border-radius-large: 5px !default;
 
 $component-border-width: 1px !default;
