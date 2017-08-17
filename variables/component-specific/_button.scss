@@ -69,7 +69,7 @@ $component-button-negative-text-color-disabled: $component-body-text-color-disab
 
 ////////BORDERS
 //NEUTRAL 
-$component-button-border: $component-border-width solid $component-button-border-color !default;
+$component-button-border: $component-border-width solid transparent !default;
 $component-button-border-disabled: transparent !default;
 
 //PRIMARY
@@ -88,46 +88,48 @@ $component-button-negative-border-disabled: transparent !default;
 $component-button-border-radius: $component-border-radius !default;
 $component-button-border-color: $theme-text-secondary !default;
 
-// =============================================================================
-//      GHOST BUTTONS
-// =============================================================================
+//=============================================================================
+//    GHOST BUTTONS
+//=============================================================================
 // Backgrounds
-$component-button-ghost-background-color: transparent !default;
-$component-button-ghost-background-color-focus: transparent !default;
+$component-button-ghost-background-color: rgba($theme-primary, 0.05) !default;
+$component-button-ghost-background-color-focus: $theme-base !default;
 $component-button-ghost-background-color-hover: $theme-base !default;
 $component-button-ghost-background-color-active: $theme-base-2 !default;
 $component-button-ghost-background-color-disabled: $theme-action-disabled !default;
 
 // Borders 
-$component-button-ghost-border-color: $theme-text-secondary !default;
-$component-button-ghost-border: 2px solid $component-button-border-color !default;
+$component-button-ghost-border: 2px solid $theme-base !default;
+$component-button-ghost-border-hover: 2px solid $theme-base !default;
+$component-button-ghost-border-active: 2px solid $theme-base !default;
 $component-button-ghost-border-disabled: transparent !default;
 
 // Text
 $component-button-ghost-text-color: $theme-text-inverse !default;
-$component-button-ghost-text-color-focus: $theme-text-inverse !default;
-$component-button-ghost-text-color-hover: $theme-text-accent !default;
-$component-button-ghost-text-color-active: $theme-text-accent !default;
-$component-button-ghost-text-color-disabled: $component-body-text-color-disabled !default;
+$component-button-ghost-text-color-focus: $theme-primary !default;
+$component-button-ghost-text-color-hover: $theme-primary !default;
+$component-button-ghost-text-color-active: $theme-primary !default;
 
 // =============================================================================
-//      INVERSE GHOST BUTTONS
+//      SECONDARY GHOST BUTTONS
 // =============================================================================
 // Backgrounds
-$component-button-ghost-inverse-background-color: transparent !default;
-$component-button-ghost-inverse-background-color-focus: transparent !default;
-$component-button-ghost-inverse-background-color-hover: $theme-primary !default;
-$component-button-ghost-inverse-background-color-active: $theme-primary-2 !default;
-$component-button-ghost-inverse-background-color-disabled: $theme-action-disabled !default;
+$component-button-ghost-secondary-background-color: rgba($theme-action-primary, 0.05) !default;
+$component-button-ghost-secondary-background-color-focus: $theme-base !default;
+$component-button-ghost-secondary-background-color-hover: $theme-base !default;
+$component-button-ghost-secondary-background-color-active: $theme-base-2 !default;
+$component-button-ghost-secondary-background-color-disabled: $theme-action-disabled !default;
 
 // Borders 
-$component-button-ghost-inverse-border-color: $theme-action !default;
-$component-button-ghost-inverse-border: 2px solid $component-button-ghost-inverse-border-color !default;
-$component-button-ghost-inverse-border-disabled: transparent !default;
+$component-button-ghost-secondary-border: 2px solid $theme-base !default;
+$component-button-ghost-secondary-border-hover: 2px solid $theme-base !default;
+$component-button-ghost-secondary-border-active: 2px solid $theme-base !default;
+$component-button-ghost-secondary-border-disabled: transparent !default;
 
 // Text
-$component-button-ghost-inverse-text-color: $theme-text-accent !default;
-$component-button-ghost-inverse-text-color-focus: $theme-accent !default;
-$component-button-ghost-inverse-text-color-hover: $theme-accent !default;
-$component-button-ghost-inverse-text-color-active: $theme-accent !default;
-$component-button-ghost-inverse-text-color-disabled: $component-body-text-color-disabled !default;
+$component-button-ghost-secondary-text-color: $theme-text-inverse !default;
+$component-button-ghost-secondary-text-color-focus: $theme-action-primary !default;
+$component-button-ghost-secondary-text-color-hover: $theme-action-primary !default;
+$component-button-ghost-secondary-text-color-active: $theme-action-primary !default;
+$component-button-ghost-secondary-text-color-disabled: $theme-text-tertiary !default;
+$component-button-ghost-text-color-disabled: $theme-text-tertiary !default;
