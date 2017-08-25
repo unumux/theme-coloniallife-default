@@ -25,6 +25,6 @@
     }
   },
   "dependencies": {
-    "@unumux/willow": "git+https://github.com/unumux/willow.git#ghost-button"
+    "@unumux/willow": "^0.2.0"
   }
 }
