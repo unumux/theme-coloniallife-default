@@ -75,3 +75,51 @@ $component-button-positive-border-disabled: transparent !default;
 //NEGATIVE
 $component-button-negative-border: $component-border-width solid transparent !default;
 $component-button-negative-border-disabled: transparent !default;
+
+//=============================================================================
+//    GHOST BUTTONS
+//=============================================================================
+// Backgrounds
+$component-button-ghost-background-color: transparent !default;
+$component-button-ghost-background-color-focus: $theme-base !default;
+$component-button-ghost-background-color-hover: $theme-base !default;
+$component-button-ghost-background-color-active: $theme-base-2 !default;
+$component-button-ghost-background-color-disabled: $theme-action-disabled !default;
+
+// Borders 
+$component-button-ghost-border: 2px solid $theme-base !default;
+$component-button-ghost-border-focus: 2px solid $theme-base !default;
+$component-button-ghost-border-hover: 2px solid $theme-base !default;
+$component-button-ghost-border-active: 2px solid $theme-base !default;
+$component-button-ghost-border-disabled: transparent !default;
+
+// Text
+$component-button-ghost-text-color: $theme-text-inverse !default;
+$component-button-ghost-text-color-focus: $theme-text-accent !default;
+$component-button-ghost-text-color-hover: $theme-text-accent !default;
+$component-button-ghost-text-color-active: $theme-text-accent !default;
+$component-button-ghost-text-color-disabled: $theme-text-tertiary !default;
+
+// =============================================================================
+//      INVERSE GHOST BUTTONS
+// =============================================================================
+// Backgrounds
+$component-button-ghost-inverse-background-color: transparent !default;
+$component-button-ghost-inverse-background-color-focus: $theme-primary !default;
+$component-button-ghost-inverse-background-color-hover: $theme-primary !default;
+$component-button-ghost-inverse-background-color-active: $theme-primary-2 !default;
+$component-button-ghost-inverse-background-color-disabled: $theme-action-disabled !default;
+
+// Borders 
+$component-button-ghost-inverse-border: 2px solid $theme-primary !default;
+$component-button-ghost-inverse-border-focus: 2px solid transparent !default;
+$component-button-ghost-inverse-border-hover: 2px solid transparent !default;
+$component-button-ghost-inverse-border-active: 2px solid transparent !default;
+$component-button-ghost-inverse-border-disabled: transparent !default;
+
+// Text
+$component-button-ghost-inverse-text-color: $theme-text-accent !default;
+$component-button-ghost-inverse-text-color-focus: $theme-text-inverse !default;
+$component-button-ghost-inverse-text-color-hover: $theme-text-inverse !default;
+$component-button-ghost-inverse-text-color-active: $theme-text-inverse !default;
+$component-button-ghost-inverse-text-color-disabled: $theme-text-tertiary !default;
