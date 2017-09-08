@@ -8,69 +8,64 @@
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      HEADING STYLES
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+$line-height-xl: 2;
+$line-height-l: 1.75;
+$line-height: 1.5;
+$line-height-s: 1.4;
+$line-height-xs: 1.25;
+
 $text-style-heading-1: (
   family: $font-family-primary,
   desktop-size: 4.8rem,
-  desktop-line-height: 5,
-  desktop-margin-bottom: 1,
-  mobile-size: 3.4rem,
-  mobile-line-height: 4,
-  mobile-margin-bottom: 1,
+  desktop-line-height: $line-height-xs,
+  mobile-size: 3.0rem,
+  mobile-line-height: $line-height-xl,
   weight: normal
 ) !default;
-
+  
 $text-style-heading-2: (
   family: $font-family-primary,
   desktop-size: 2.8rem,
-  desktop-line-height: 3,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height-s,
   mobile-size: 2.5rem,
-  mobile-line-height: 3,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height,
   weight: normal
 ) !default;
-
+    
 $text-style-heading-3: (
   family: $font-family-secondary,
   desktop-size: 2.4rem,
-  desktop-line-height: 3,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height-s,
   mobile-size: 1.9rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height-l,
   weight: 600
 ) !default;
 
 $text-style-heading-4: (
   family: $font-family-secondary,
   desktop-size: 1.8rem,
-  desktop-line-height: 2,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height-s,
   mobile-size: 1.7rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height-s,
   weight: 600
 ) !default;
-
+  
 $text-style-heading-5: (
   family: $font-family-secondary,
   desktop-size: 1.6rem,
-  desktop-line-height: 2,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height,
   mobile-size: 1.6rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height,
   weight: 600
 ) !default;
-
+          
 $text-style-heading-6: (
   family: $font-family-secondary,
   desktop-size: 1.4rem,
-  desktop-line-height: 2,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height-l,
   mobile-size: 1.4rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height-l,
   weight: 600
 ) !default;
 
@@ -80,32 +75,26 @@ $text-style-heading-6: (
 $text-style-content-1: (
   family: $font-family-secondary,
   desktop-size: 1.6rem,
-  desktop-line-height: 2,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height,
   mobile-size: 1.6rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height,
   weight: 400
 ) !default;
 
 $text-style-content-2: (
   family: $font-family-secondary,
   desktop-size: 1.4rem,
-  desktop-line-height: 2,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height-l,
   mobile-size: 1.4rem,
-  mobile-line-height: 2,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height-l,
   weight: 400
 ) !default;
 
 $text-style-content-3: (
   family: $font-family-secondary,
   desktop-size: 1.1rem,
-  desktop-line-height: 1,
-  desktop-margin-bottom: 1,
+  desktop-line-height: $line-height,
   mobile-size: 1.1rem,
-  mobile-line-height: 1,
-  mobile-margin-bottom: 1,
+  mobile-line-height: $line-height,
   weight: 400
 ) !default;

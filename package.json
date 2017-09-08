@@ -25,6 +25,7 @@
     }
   },
   "dependencies": {
-    "@unumux/willow": "^0.2.0"
+    "@unumux/willow": "^0.2.0",
+    "bootstrap": "4.0.0-beta"
   }
 }
