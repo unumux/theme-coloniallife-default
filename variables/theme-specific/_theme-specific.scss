@@ -25,9 +25,28 @@ $theme-accent-4: $color-mint-darker !default;
 
 //FEEDBACK
 $theme-feedback: $color-info-lightest !default;
+$theme-feedback-2: $color-info-light !default;
+$theme-feedback-3: $color-info !default;
+$theme-feedback-4: $color-info-dark !default;
+$theme-feedback-5: $color-info-darker !default;
+
 $theme-feedback-positive: $color-success-lightest !default;
+$theme-feedback-positive-2: $color-success-light !default;
+$theme-feedback-positive-3: $color-success !default;
+$theme-feedback-positive-4: $color-success-dark !default;
+$theme-feedback-positive-5: $color-success-darker !default;
+
 $theme-feedback-warning: $color-caution-lightest !default;
+$theme-feedback-warning-2: $color-caution-light !default;
+$theme-feedback-warning-3: $color-caution !default;
+$theme-feedback-warning-4: $color-caution-dark !default;
+$theme-feedback-warning-5: $color-caution-darker !default;
+
 $theme-feedback-negative: $color-warning-lightest !default;
+$theme-feedback-negative-2: $color-warning-light !default;
+$theme-feedback-negative-3: $color-warning !default;
+$theme-feedback-negative-4: $color-warning-dark !default;
+$theme-feedback-negative-5: $color-warning-darker !default;
 
 //ACTION COLORS
 $theme-action: $color-steel-blue !default; //used for default and focus states
