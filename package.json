@@ -25,7 +25,5 @@
     }
   },
   "dependencies": {
-    "bootstrap": "4.0.0-beta",
-    "@unumux/willow": "git+https://github.com/unumux/willow.git#develop"
   }
 }
