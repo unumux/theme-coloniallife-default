@@ -4,7 +4,8 @@
   "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cat _styles.scss | node-sass > download/theme-coloniallife-default.min.css"
   },
   "author": "UnumUX",
   "license": "MIT",
@@ -23,5 +24,9 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "devDependencies": {
+    "@unumux/willow": "^0.3.0",
+    "node-sass": "^4.5.3"
   }
 }
