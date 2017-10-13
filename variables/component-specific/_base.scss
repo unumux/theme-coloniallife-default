@@ -66,6 +66,29 @@ $component-border-radius-large: 5px !default;
 
 $component-border-width: 1px !default;
 
-$base-size: 12px !default;
-
 $content-max-width: 1170px !default;
+
+$list-style-type: square !default;
+
+//// FORMS ////////////////////////////////////////////////////////////////////////////////////////////////
+$component-form-background-color: transparent !default;
+$component-form-padding: 0 !default;
+
+$component-input-border-color: $theme-base-3 !default;
+$component-input-border-color-disabled: $theme-base-3 !default;
+$component-input-border-color-invalid: $theme-feedback-negative-5 !default;
+$component-input-border-color-valid: $theme-feedback-positive-3 !default;
+
+$component-input-border-width: 2px !default;
+
+$component-input-background-color: $theme-base !default;
+$component-input-background-color-checked: $theme-feedback-3 !default;
+$component-input-background-color-disabled: transparent !default;
+$component-input-background-color-invalid: rgba($theme-feedback-negative-3, 0.15) !default;
+$component-input-background-color-valid: rgba($theme-feedback-positive-3, 0.15) !default;
+
+$component-input-box-shadow-color: rgba($theme-black, 0.4) !default;
+
+$component-dropdown-height: 45px !default;
+$component-input-height: 25px !default;
+$component-input-width: 25px !default;
