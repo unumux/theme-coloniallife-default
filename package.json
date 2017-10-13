@@ -1,6 +1,6 @@
 {
   "name": "@unumux/theme-coloniallife-default",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,5 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
   }
 }
