@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cat _styles.scss | node-sass > download/theme-coloniallife-default.min.css"
+    "build": "cat download/styles.scss | node-sass --output-style compressed > download/theme-coloniallife-default.min.css"
   },
   "author": "UnumUX",
   "license": "MIT",
