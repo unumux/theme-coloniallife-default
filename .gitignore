@@ -39,4 +39,4 @@ jspm_packages
 # min and map
 *.min.*
 *.map
-!download/*
+!downloads/*
