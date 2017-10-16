@@ -1,6 +1,6 @@
 {
   "name": "@unumux/theme-coloniallife-default",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,9 @@
     }
   },
   "devDependencies": {
-    "@unumux/willow": "^0.3.0",
     "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "@unumux/willow": "^0.3.0"
   }
 }
