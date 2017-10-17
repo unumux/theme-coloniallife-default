@@ -2,75 +2,75 @@
 // =============================================================================
 //      THEME PALATTE
 //      theme specific variables set to descriptive color variables
-//      use these when setting values for $component- variables
+//      use these when setting values for $willow-component- variables
 //      do not use these to set values for properties (i.e. : background-color)
 // =============================================================================
-$theme-white: $color-white !default;
-$theme-black: $color-black !default;
+$willow-theme-white: $willow-color-white !default;
+$willow-theme-black: $willow-color-black !default;
 
-$theme-base: $color-neutral-lightest !default;
-$theme-base-2: $color-neutral-light !default;
-$theme-base-3: $color-neutral !default;
-$theme-base-4: $color-neutral-dark !default;
+$willow-theme-base: $willow-color-neutral-lightest !default;
+$willow-theme-base-2: $willow-color-neutral-light !default;
+$willow-theme-base-3: $willow-color-neutral !default;
+$willow-theme-base-4: $willow-color-neutral-dark !default;
 
-$theme-primary: $color-steel-blue !default;
-$theme-primary-2: $color-steel-blue-dark !default;
-$theme-primary-3: $color-steel-blue-darker !default;
-$theme-primary-4: $color-neutral-darker !default;
+$willow-theme-primary: $willow-color-steel-blue !default;
+$willow-theme-primary-2: $willow-color-steel-blue-dark !default;
+$willow-theme-primary-3: $willow-color-steel-blue-darker !default;
+$willow-theme-primary-4: $willow-color-neutral-darker !default;
 
-$theme-accent: $color-mint !default;
-$theme-accent-2: $color-mint !default;
-$theme-accent-3: $color-mint-dark !default;
-$theme-accent-4: $color-mint-darker !default;
+$willow-theme-accent: $willow-color-mint !default;
+$willow-theme-accent-2: $willow-color-mint !default;
+$willow-theme-accent-3: $willow-color-mint-dark !default;
+$willow-theme-accent-4: $willow-color-mint-darker !default;
 
 //FEEDBACK
-$theme-feedback: $color-info-lightest !default;
-$theme-feedback-2: $color-info-light !default;
-$theme-feedback-3: $color-info !default;
-$theme-feedback-4: $color-info-dark !default;
-$theme-feedback-5: $color-info-darker !default;
+$willow-theme-feedback: $willow-color-info-lightest !default;
+$willow-theme-feedback-2: $willow-color-info-light !default;
+$willow-theme-feedback-3: $willow-color-info !default;
+$willow-theme-feedback-4: $willow-color-info-dark !default;
+$willow-theme-feedback-5: $willow-color-info-darker !default;
 
-$theme-feedback-positive: $color-success-lightest !default;
-$theme-feedback-positive-2: $color-success-light !default;
-$theme-feedback-positive-3: $color-success !default;
-$theme-feedback-positive-4: $color-success-dark !default;
-$theme-feedback-positive-5: $color-success-darker !default;
+$willow-theme-feedback-positive: $willow-color-success-lightest !default;
+$willow-theme-feedback-positive-2: $willow-color-success-light !default;
+$willow-theme-feedback-positive-3: $willow-color-success !default;
+$willow-theme-feedback-positive-4: $willow-color-success-dark !default;
+$willow-theme-feedback-positive-5: $willow-color-success-darker !default;
 
-$theme-feedback-warning: $color-caution-lightest !default;
-$theme-feedback-warning-2: $color-caution-light !default;
-$theme-feedback-warning-3: $color-caution !default;
-$theme-feedback-warning-4: $color-caution-dark !default;
-$theme-feedback-warning-5: $color-caution-darker !default;
+$willow-theme-feedback-warning: $willow-color-caution-lightest !default;
+$willow-theme-feedback-warning-2: $willow-color-caution-light !default;
+$willow-theme-feedback-warning-3: $willow-color-caution !default;
+$willow-theme-feedback-warning-4: $willow-color-caution-dark !default;
+$willow-theme-feedback-warning-5: $willow-color-caution-darker !default;
 
-$theme-feedback-negative: $color-warning-lightest !default;
-$theme-feedback-negative-2: $color-warning-light !default;
-$theme-feedback-negative-3: $color-warning !default;
-$theme-feedback-negative-4: $color-warning-dark !default;
-$theme-feedback-negative-5: $color-warning-darker !default;
+$willow-theme-feedback-negative: $willow-color-warning-lightest !default;
+$willow-theme-feedback-negative-2: $willow-color-warning-light !default;
+$willow-theme-feedback-negative-3: $willow-color-warning !default;
+$willow-theme-feedback-negative-4: $willow-color-warning-dark !default;
+$willow-theme-feedback-negative-5: $willow-color-warning-darker !default;
 
 //ACTION COLORS
-$theme-action: $color-steel-blue !default; //used for default and focus states
-$theme-action-2: $color-steel-blue-dark !default;
-$theme-action-3: $color-steel-blue-darker !default;
+$willow-theme-action: $willow-color-steel-blue !default; //used for default and focus states
+$willow-theme-action-2: $willow-color-steel-blue-dark !default;
+$willow-theme-action-3: $willow-color-steel-blue-darker !default;
 
-$theme-action-primary: $color-mint !default; //used for primary default and focus states
-$theme-action-primary-2: $color-mint-dark !default;
-$theme-action-primary-3: $color-mint-darker !default;
+$willow-theme-action-primary: $willow-color-mint !default; //used for primary default and focus states
+$willow-theme-action-primary-2: $willow-color-mint-dark !default;
+$willow-theme-action-primary-3: $willow-color-mint-darker !default;
 
-$theme-action-positive: $color-success !default; //used for positive default and focus states
-$theme-action-positive-2: $color-success-dark !default;
-$theme-action-positive-3: $color-success-darker !default;
+$willow-theme-action-positive: $willow-color-success !default; //used for positive default and focus states
+$willow-theme-action-positive-2: $willow-color-success-dark !default;
+$willow-theme-action-positive-3: $willow-color-success-darker !default;
 
-$theme-action-negative: $color-warning !default; //used for negative default and focus states
-$theme-action-negative-2: $color-warning-dark !default;
-$theme-action-negative-3: $color-warning-darker !default;
+$willow-theme-action-negative: $willow-color-warning !default; //used for negative default and focus states
+$willow-theme-action-negative-2: $willow-color-warning-dark !default;
+$willow-theme-action-negative-3: $willow-color-warning-darker !default;
 
-$theme-action-disabled: $color-neutral !default;
+$willow-theme-action-disabled: $willow-color-neutral !default;
 
 //TEXT COLORS
-$theme-text-primary: $color-neutral-darker !default;
-$theme-text-accent: $color-steel-blue !default;
-$theme-text-inverse: $color-neutral-lightest !default; //used for highlighted t`ext, and text on the alert/feedback colors
-$theme-text-secondary: $color-neutral !default; //used for specialized inlines like code, inline quotes, small
-$theme-text-tertiary: $color-neutral-dark !default;
-$theme-text-monospace: $color-mint !default;
+$willow-theme-text-primary: $willow-color-neutral-darker !default;
+$willow-theme-text-accent: $willow-color-steel-blue !default;
+$willow-theme-text-inverse: $willow-color-neutral-lightest !default; //used for highlighted t`ext, and text on the alert/feedback colors
+$willow-theme-text-secondary: $willow-color-neutral !default; //used for specialized inlines like code, inline quotes, small
+$willow-theme-text-tertiary: $willow-color-neutral-dark !default;
+$willow-theme-text-monospace: $willow-color-mint !default;

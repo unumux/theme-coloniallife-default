@@ -2,93 +2,93 @@
 //      OVERLAY
 //      used by modals and dialogs... and more things in the future
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-overlay-background-color: rgba($theme-primary-4, 0.8) !default;
+$willow-component-overlay-background-color: rgba($willow-theme-primary-4, 0.8) !default;
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      DISABLED CURSOR
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-cursor-disabled: not-allowed !default; //is this helpful?
+$willow-component-cursor-disabled: not-allowed !default; //is this helpful?
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //      COMPONENT BACKGROUNDS
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-$component-body-background-color: $theme-base-2 !default;
-$component-body-background-color-secondary: $theme-base !default;
-$component-body-background-color-em: theme-primary-2 !default;
+$willow-component-body-background-color: $willow-theme-base-2 !default;
+$willow-component-body-background-color-secondary: $willow-theme-base !default;
+$willow-component-body-background-color-em: theme-primary-2 !default;
 
-$component-border-color: $theme-base-3 !default;
-$component-border-color-inverse: $theme-base !default;
-$component-border-color-secondary: $theme-accent !default;
-$component-border-color-disabled: $theme-primary !default;
+$willow-component-border-color: $willow-theme-base-3 !default;
+$willow-component-border-color-inverse: $willow-theme-base !default;
+$willow-component-border-color-secondary: $willow-theme-accent !default;
+$willow-component-border-color-disabled: $willow-theme-primary !default;
 
-$component-body-text-color: $theme-text-primary !default;
-$component-body-text-color-secondary: $theme-text-secondary !default;
-$component-body-text-color-inverse: $theme-text-inverse !default;
-$component-body-text-color-disabled: $theme-text-tertiary !default;
+$willow-component-body-text-color: $willow-theme-text-primary !default;
+$willow-component-body-text-color-secondary: $willow-theme-text-secondary !default;
+$willow-component-body-text-color-inverse: $willow-theme-text-inverse !default;
+$willow-component-body-text-color-disabled: $willow-theme-text-tertiary !default;
 
-$component-blockquote-text-color: $component-body-text-color !default;
-$component-blockquote-font-weight: 600 !default;
-$component-blockquote-border-color: $component-border-color-secondary !default;
+$willow-component-blockquote-text-color: $willow-component-body-text-color !default;
+$willow-component-blockquote-font-weight: 600 !default;
+$willow-component-blockquote-border-color: $willow-component-border-color-secondary !default;
 
-$component-link-color: $theme-primary !default;
-$component-link-color-hover: $theme-primary-2 !default;
-$component-link-color-focus: $theme-primary !default;
-$component-link-color-active: $theme-primary-3!default;
-$component-link-color-visited: $theme-primary !default;
+$willow-component-link-color: $willow-theme-primary !default;
+$willow-component-link-color-hover: $willow-theme-primary-2 !default;
+$willow-component-link-color-focus: $willow-theme-primary !default;
+$willow-component-link-color-active: $willow-theme-primary-3!default;
+$willow-component-link-color-visited: $willow-theme-primary !default;
 
-$component-link-color-inverse: $theme-text-inverse !default;
-$component-link-color-inverse-hover: $theme-base-2 !default;
-$component-link-color-inverse-focus: $theme-text-inverse !default;
-$component-link-color-inverse-active: $theme-base-3 !default;
-$component-link-color-inverse-visited: $theme-text-inverse !default;
+$willow-component-link-color-inverse: $willow-theme-text-inverse !default;
+$willow-component-link-color-inverse-hover: $willow-theme-base-2 !default;
+$willow-component-link-color-inverse-focus: $willow-theme-text-inverse !default;
+$willow-component-link-color-inverse-active: $willow-theme-base-3 !default;
+$willow-component-link-color-inverse-visited: $willow-theme-text-inverse !default;
 
-$component-table-header-background-color: $theme-primary !default;
-$component-table-row-background-color-odd: $theme-base !default;
-$component-table-row-background-color-even: $theme-base-2 !default;
-$component-table-border-color: $theme-base-3 !default;
-$component-table-body-text-color: $theme-text-primary !default;
-$component-table-header-text-color: $theme-text-inverse !default;
+$willow-component-table-header-background-color: $willow-theme-primary !default;
+$willow-component-table-row-background-color-odd: $willow-theme-base !default;
+$willow-component-table-row-background-color-even: $willow-theme-base-2 !default;
+$willow-component-table-border-color: $willow-theme-base-3 !default;
+$willow-component-table-body-text-color: $willow-theme-text-primary !default;
+$willow-component-table-header-text-color: $willow-theme-text-inverse !default;
 
 // >>>>>>>>> Default Text Style Property Set
-$component-body-style-default: $text-style-content-1 !default;
+$willow-component-body-style-default: $willow-text-style-content-1 !default;
 
 // >>>>>>>>> Highlighted Text 
-$component-highlighted-text-background-color: $theme-accent !default;
-$component-highlighted-text-color: $theme-text-inverse !default;
+$willow-component-highlighted-text-background-color: $willow-theme-accent !default;
+$willow-component-highlighted-text-color: $willow-theme-text-inverse !default;
 
 // >>>>>>>>> Monospace Text
-$component-body-text-monospace: $font-family-monospace !default;
-$component-body-text-color-monospace: $theme-text-monospace !default;
+$willow-component-body-text-monospace: $willow-font-family-monospace !default;
+$willow-component-body-text-color-monospace: $willow-theme-text-monospace !default;
 
-$component-border-radius-small: 3px !default;
-$component-border-radius: 4px !default;
-$component-border-radius-large: 5px !default;
+$willow-component-border-radius-small: 3px !default;
+$willow-component-border-radius: 4px !default;
+$willow-component-border-radius-large: 5px !default;
 
-$component-border-width: 1px !default;
+$willow-component-border-width: 1px !default;
 
-$content-max-width: 1170px !default;
+$willow-content-max-width: 1170px !default;
 
-$list-style-type: square !default;
+$willow-list-style-type: square !default;
 
 //// FORMS ////////////////////////////////////////////////////////////////////////////////////////////////
-$component-form-background-color: transparent !default;
-$component-form-padding: 0 !default;
+$willow-component-form-background-color: transparent !default;
+$willow-component-form-padding: 0 !default;
 
-$component-input-border-color: $theme-base-3 !default;
-$component-input-border-color-disabled: $theme-base-3 !default;
-$component-input-border-color-invalid: $theme-feedback-negative-5 !default;
-$component-input-border-color-valid: $theme-feedback-positive-3 !default;
+$willow-component-input-border-color: $willow-theme-base-3 !default;
+$willow-component-input-border-color-disabled: $willow-theme-base-3 !default;
+$willow-component-input-border-color-invalid: $willow-theme-feedback-negative-5 !default;
+$willow-component-input-border-color-valid: $willow-theme-feedback-positive-3 !default;
 
-$component-input-border-width: 2px !default;
+$willow-component-input-border-width: 2px !default;
 
-$component-input-background-color: $theme-base !default;
-$component-input-background-color-checked: $theme-feedback-3 !default;
-$component-input-background-color-disabled: transparent !default;
-$component-input-background-color-invalid: rgba($theme-feedback-negative-3, 0.15) !default;
-$component-input-background-color-valid: rgba($theme-feedback-positive-3, 0.15) !default;
+$willow-component-input-background-color: $willow-theme-base !default;
+$willow-component-input-background-color-checked: $willow-theme-feedback-3 !default;
+$willow-component-input-background-color-disabled: transparent !default;
+$willow-component-input-background-color-invalid: rgba($willow-theme-feedback-negative-3, 0.15) !default;
+$willow-component-input-background-color-valid: rgba($willow-theme-feedback-positive-3, 0.15) !default;
 
-$component-input-box-shadow-color: rgba($theme-black, 0.4) !default;
+$willow-component-input-box-shadow-color: rgba($willow-theme-black, 0.4) !default;
 
-$component-dropdown-height: 45px !default;
-$component-input-height: 25px !default;
-$component-input-width: 25px !default;
+$willow-component-dropdown-height: 45px !default;
+$willow-component-input-height: 25px !default;
+$willow-component-input-width: 25px !default;
