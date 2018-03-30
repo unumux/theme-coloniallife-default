@@ -13,7 +13,7 @@
       "cat downloads/styles.scss | node-sass --output-style compressed > downloads/theme-coloniallife-default.min.css"
   },
   "author": "UnumUX",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "publishConfig": {
     "access": "public"
   },
@@ -44,6 +44,6 @@
     "travis-deploy-once": "4.4.1"
   },
   "dependencies": {
-    "@unumux/willow": "^0.3.0"
+    "@unumux/willow": "^1.0.0"
   }
 }
