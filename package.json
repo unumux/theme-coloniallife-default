@@ -1,11 +1,12 @@
 {
   "name": "@unumux/theme-coloniallife-default",
-  "version": "0.7.1",
+  "version": "0.0.0-development",
   "description": "the default colonial life theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cat downloads/styles.scss | node-sass --output-style compressed > downloads/theme-coloniallife-default.min.css"
+    "build": "cat downloads/styles.scss | node-sass --output-style compressed > downloads/theme-coloniallife-default.min.css",
+    "semantic-release": "semantic-release"
   },
   "author": "UnumUX",
   "license": "MIT",
@@ -26,7 +27,17 @@
     }
   },
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "@commitlint/cli": "6.1.3",
+    "@commitlint/config-conventional": "6.1.3",
+    "@unumux/stylelint-config-unumux": "2.0.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "0.14.3",
+    "node-sass": "^4.5.3",
+    "semantic-release": "^15.1.4",
+    "semantic-release-cli": "3.6.4",
+    "stylelint": "9.1.3",
+    "travis-deploy-once": "4.4.1"
   },
   "dependencies": {
     "@unumux/willow": "^0.3.0"
