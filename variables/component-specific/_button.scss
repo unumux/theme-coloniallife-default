@@ -49,10 +49,14 @@ $component-button-primary-text-color-disabled: $component-body-text-color-disabl
 
 // Borders
 $component-button-primary-border: $component-border-width solid transparent !default;
-$component-button-primary-border-visited: $component-border-width solid transparent !default;
-$component-button-primary-border-hover: $component-border-width solid transparent !default;
-$component-button-primary-border-active: $component-border-width solid transparent !default;
-$component-button-primary-border-focus: $component-border-width solid transparent !default;
+$component-button-primary-border-visited: $component-border-width solid
+    transparent !default;
+$component-button-primary-border-hover: $component-border-width solid
+    transparent !default;
+$component-button-primary-border-active: $component-border-width solid
+    transparent !default;
+$component-button-primary-border-focus: $component-border-width solid
+    transparent !default;
 $component-button-primary-border-disabled: transparent !default;
 
 // =============================================================================
@@ -76,10 +80,14 @@ $component-button-positive-text-color-disabled: $component-body-text-color-disab
 
 // Borders
 $component-button-positive-border: $component-border-width solid transparent !default;
-$component-button-positive-border-visited: $component-border-width solid transparent !default;
-$component-button-positive-border-hover: $component-border-width solid transparent !default;
-$component-button-positive-border-active: $component-border-width solid transparent !default;
-$component-button-positive-border-focus: $component-border-width solid transparent !default;
+$component-button-positive-border-visited: $component-border-width solid
+    transparent !default;
+$component-button-positive-border-hover: $component-border-width solid
+    transparent !default;
+$component-button-positive-border-active: $component-border-width solid
+    transparent !default;
+$component-button-positive-border-focus: $component-border-width solid
+    transparent !default;
 $component-button-positive-border-disabled: transparent !default;
 
 // =============================================================================
@@ -103,10 +111,14 @@ $component-button-negative-text-color-disabled: $component-body-text-color-disab
 
 // Borders
 $component-button-negative-border: $component-border-width solid transparent !default;
-$component-button-negative-border-visited: $component-border-width solid transparent !default;
-$component-button-negative-border-hover: $component-border-width solid transparent !default;
-$component-button-negative-border-active: $component-border-width solid transparent !default;
-$component-button-negative-border-focus: $component-border-width solid transparent !default;
+$component-button-negative-border-visited: $component-border-width solid
+    transparent !default;
+$component-button-negative-border-hover: $component-border-width solid
+    transparent !default;
+$component-button-negative-border-active: $component-border-width solid
+    transparent !default;
+$component-button-negative-border-focus: $component-border-width solid
+    transparent !default;
 $component-button-negative-border-disabled: transparent !default;
 
 //=============================================================================
@@ -128,7 +140,7 @@ $component-button-ghost-text-color-active: $theme-text-accent !default;
 $component-button-ghost-text-color-focus: $theme-text-accent !default;
 $component-button-ghost-text-color-disabled: $theme-text-tertiary !default;
 
-// Borders 
+// Borders
 $component-button-ghost-border: 2px solid $theme-base !default;
 $component-button-ghost-border-visited: 2px solid $theme-base !default;
 $component-button-ghost-border-hover: 2px solid $theme-base !default;
@@ -155,7 +167,7 @@ $component-button-ghost-inverse-text-color-active: $theme-text-inverse !default;
 $component-button-ghost-inverse-text-color-focus: $theme-text-inverse !default;
 $component-button-ghost-inverse-text-color-disabled: $theme-text-tertiary !default;
 
-// Borders 
+// Borders
 $component-button-ghost-inverse-border: 2px solid $theme-primary !default;
 $component-button-ghost-inverse-border-visited: 2px solid $theme-primary !default;
 $component-button-ghost-inverse-border-hover: 2px solid transparent !default;

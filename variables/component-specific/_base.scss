@@ -33,7 +33,7 @@ $component-blockquote-border-color: $component-border-color-secondary !default;
 $component-link-color: $theme-primary !default;
 $component-link-color-hover: $theme-primary-2 !default;
 $component-link-color-focus: $theme-primary !default;
-$component-link-color-active: $theme-primary-3!default;
+$component-link-color-active: $theme-primary-3 !default;
 $component-link-color-visited: $theme-primary !default;
 
 $component-link-color-inverse: $theme-text-inverse !default;
@@ -52,7 +52,7 @@ $component-table-header-text-color: $theme-text-inverse !default;
 // >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
 
-// >>>>>>>>> Highlighted Text 
+// >>>>>>>>> Highlighted Text
 $component-highlighted-text-background-color: $theme-accent !default;
 $component-highlighted-text-color: $theme-text-inverse !default;
 
@@ -84,8 +84,14 @@ $component-input-border-width: 2px !default;
 $component-input-background-color: $theme-base !default;
 $component-input-background-color-checked: $theme-feedback-3 !default;
 $component-input-background-color-disabled: transparent !default;
-$component-input-background-color-invalid: rgba($theme-feedback-negative-3, 0.15) !default;
-$component-input-background-color-valid: rgba($theme-feedback-positive-3, 0.15) !default;
+$component-input-background-color-invalid: rgba(
+    $theme-feedback-negative-3,
+    0.15
+) !default;
+$component-input-background-color-valid: rgba(
+    $theme-feedback-positive-3,
+    0.15
+) !default;
 
 $component-input-box-shadow-color: rgba($theme-black, 0.4) !default;
 
