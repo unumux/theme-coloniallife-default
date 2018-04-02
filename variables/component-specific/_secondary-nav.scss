@@ -1,5 +1,6 @@
 $component-secondary-nav-background-color: $theme-base !default;
-$component-secondary-nav-border: $component-border-width solid $theme-text-secondary !default;
+$component-secondary-nav-border: $component-border-width solid
+    $theme-text-secondary !default;
 $component-secondary-nav-link-color: $theme-text-primary !default;
 $component-secondary-nav-link-color-hover: $theme-text-primary !default;
 $component-secondary-nav-link-color-focus: $theme-text-primary !default;
